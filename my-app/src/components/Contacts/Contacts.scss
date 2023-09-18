@@ -1,0 +1,27 @@
+@import "../../styles/responsive";
+@import "../../styles/variables";
+
+.contacts {
+  padding-bottom: 56px;
+  padding-top: 56px;
+}
+.contacts__phoneContainer {
+  margin-top: 36px;
+  margin-bottom: 24px;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.contacts__phones {
+  text-align: right;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.contacts__phonesTitle {
+  font-size: 12px;
+  font-weight: 200;
+  line-height: 20px;
+  width: 81px;
+}

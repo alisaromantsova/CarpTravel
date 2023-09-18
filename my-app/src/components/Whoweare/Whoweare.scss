@@ -1,0 +1,53 @@
+@import "../../styles/responsive";
+@import "../../styles/variables";
+
+.whoweare {
+  padding-bottom: 55px;
+  padding-top: 54px;
+}
+.whoweare_description {
+  margin-top: 8px;
+  margin-bottom: 20px;
+  width: 180px;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 20px;
+}
+.whoweare_descriptionBold {
+  font-weight: 400;
+}
+.whoweare__secondDescription {
+  margin-bottom: 40px;
+  width: 180px;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 20px;
+}
+.whoweare__secondDescriptionBold {
+  font-weight: 400;
+}
+.whoweare_rightText {
+  width: 180px;
+  margin-left: auto;
+  margin-bottom: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.whoweare__active {
+  text-align: right;
+}
+.whoweare__thin {
+  text-transform: lowercase;
+  font-weight: 200;
+  letter-spacing: -0.14px;
+}
+.whoweare__bottomDescr {
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 20px;
+}
+.whoweare__bottomDescrBold {
+  font-weight: 400;
+}

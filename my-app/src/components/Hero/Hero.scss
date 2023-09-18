@@ -1,0 +1,102 @@
+@import "../../styles/responsive";
+@import "../../styles/variables";
+
+.hero {
+  background: black;
+  padding-top: 36px;
+  padding-bottom: 56px;
+}
+.hero__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 36px;
+}
+.hero__logo {
+  color: $main;
+  font-family: "Karantina", cursive;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.59px;
+}
+.hero__menu {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 1.4px;
+  color: $main;
+  font-family: inherit;
+  background: none;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+}
+.hero__subLogo {
+  margin-bottom: 24px;
+  margin-left: auto;
+  width: 119px;
+  font-size: 37px;
+  font-weight: 500;
+  display: flex;
+  flex-wrap: wrap;
+  line-height: normal;
+}
+.hero__subLogoDays {
+  font-weight: 100;
+  letter-spacing: 1.665px;
+  text-transform: uppercase;
+}
+.hero__subLogoJourney {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 9.48px;
+  text-transform: uppercase;
+  margin-top: -8px;
+}
+.hero__title {
+  margin-bottom: 24px;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 56px; /* 140% */
+  letter-spacing: -1.6px;
+  text-transform: uppercase;
+}
+.hero__titleBold {
+  font-weight: 500;
+}
+.hero__location {
+  margin-bottom: 24px;
+  width: 157px;
+  font-size: 10px;
+  font-weight: 200;
+  line-height: 16px;
+}
+.hero__text {
+  margin-bottom: 24px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 20px;
+  text-align: justify;
+}
+.hero__callButton {
+  padding: 18px 64px;
+  margin: auto;
+  display: block;
+  font-family: inherit;
+  background: none;
+  border: none;
+  outline: none;
+  border: 1px dashed #fff;
+  background: rgba(255, 255, 255, 0.1);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  color: $main;
+  text-transform: uppercase;
+}

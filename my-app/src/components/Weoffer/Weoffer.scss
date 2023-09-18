@@ -1,0 +1,45 @@
+@import "../../styles/responsive";
+@import "../../styles/variables";
+
+.weoffer {
+  padding-bottom: 55px;
+  padding-top: 54px;
+}
+.weoffer__counter {
+  width: 107px;
+  margin-left: auto;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-size: 43px;
+  font-weight: 100;
+}
+.weoffer__counterBlur {
+  color: #ffffff33;
+}
+.weoffer_caption {
+  width: 191px;
+  margin-left: auto;
+  margin-top: 8px;
+  margin-bottom: 24px;
+  font-size: 12px;
+  font-weight: 200;
+  line-height: 24px;
+  letter-spacing: 2.4px;
+}
+.weoffer__list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.weoffer__listItem {
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 17px;
+  text-transform: uppercase;
+}
+.weoffer__description {
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 20px;
+}
